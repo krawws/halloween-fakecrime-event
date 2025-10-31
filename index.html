@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Halloween!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            background-color: #0D0D0D;
+            color: #E0E0E0;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        h1 {
+            font-family: 'Creepster', cursive;
+            font-size: 5rem;
+            color: #FFA500;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        @keyframes flicker {
+          0%, 18%, 22%, 25%, 53%, 57%, 100% {
+            text-shadow:
+              0 0 4px #FFA500,
+              0 0 8px #FFA500,
+              0 0 12px #FFA500;
+            color: #FFA500;
+          }
+          20%, 24%, 55% {        
+            text-shadow: none;
+            color: #FF7700;
+          }
+        }
+
+        .greetings-section {
+            background-color: #1A1A1A;
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            border: 1px solid #2a2a2a;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #9D4EDD;
+            border-bottom: 2px solid #9D4EDD;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li::before {
+            content: '🎃';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: auto;
+            padding: 20px;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #FFA500;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <h1>Happy Halloween!</h1>
+
+        <div class="greetings-section">
+            <h2>Happy halloween !</h2>
+            <ul>
+                <li>Wishing you a night full of frights and a bag full of delights!</li>
+                <li>Have a spooktacular Halloween!</li>
+                <li>Eat, drink, and be scary!</li>
+                <li>May your candy stash be huge and your scares be few.</li>
+                <li>Happy Haunting!</li>
+            </ul>
+        </div>
+
+        <div class="greetings-section">
+            <h2>Поздравляю с хеллоуином :D</h2>
+            <ul>
+                <li>Желаю страшно веселой ночи и жутко большого мешка сладостей!</li>
+                <li>Веселого Хэллоуина!</li>
+                <li>Сладостей или гадостей!</li>
+                <li>Пусть эта ночь будет полна волшебства, загадочности и незабываемых приключений.</li>
+                <li>Ужасно счастливого праздника!</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        btw listen to my favorite author :D <a href="https://soundcloud.com/yumixx1337/na-tebya-mne-prod-0vvv0-lanny?si=7989c28ebd4b486caaf318d7e0285f03&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank"> ‎ ‎ ‎   soundcloud link</a>
+    </footer>
+
+</body>
+</html>
